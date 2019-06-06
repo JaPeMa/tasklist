@@ -12,5 +12,5 @@ function addElement() {
 }
 
 function deleteElementFromList(button) {
-    console.log(button.parentElement);
+    document.getElementById("list").removeChild(button.parentNode);
 }
